@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Srijan Public School</title>
+    <style>
+        /* Style for moving text */
+        .marquee {
+            font-size: 36px;
+            font-weight: bold;
+            color: #333;
+            animation: scrollText 10s linear infinite;
+            white-space: nowrap;
+            overflow: hidden;
+            text-align: center;
+            margin: 20px 0;
+        }
+        
+        /* Keyframes for scrolling effect */
+        @keyframes scrollText {
+            0% { transform: translateX(100%); }
+            100% { transform: translateX(-100%); }
+        }
+        
+        /* Basic styling for links */
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        
+        li {
+            margin: 10px 0;
+        }
+        
+        a {
+            text-decoration: none;
+            color: #0066cc;
+            font-size: 20px;
+        }
+        
+        a:hover {
+            color: #004080;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Moving school name -->
+    <div class="marquee">Welcome to Srijan Public School</div>
+    
+    <!-- Links section -->
+    <ul>
+        <li><a href="teacher-details.html">Click here to open Teacher Details</a></li>
+        <li><a href="fee-structure.html">Click here to open Fee Structure</a></li>
+        <li><a href="student-registration.html">Click here to open Student Registration Form</a></li>
+        <li><a href="student-table.html">Click here to open 10x10 Student Table</a></li>
+        <li><a href="html-formatting.html">Click here to open Details of Formatting Elements in HTML</a></li>
+    </ul>
+
+</body>
+</html>
